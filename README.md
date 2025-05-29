@@ -23,7 +23,7 @@ A minimalist desktop app that summarizes your unread Gmail messages using AI. Yo
 1. Authenticates your Gmail via OAuth2.
 2. Fetches the **20 most recent unread emails**.
 3. Sends them to the backend to be summarized by **Cohere’s LLM**.
-4. The **prompt** is used only to **check for relevant emails** – not to change how summaries are written.
+4. The **prompt** is used to **check for relevant emails**.
    - Example: if you type “internship” and one email mentions it, you’ll see 🎯 Prompt Status: Relevant Emails Found.
 
 ## 🛠 Tech Stack
