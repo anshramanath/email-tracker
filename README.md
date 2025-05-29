@@ -1,6 +1,6 @@
 # 📬 Email Tracker
 
-A minimalist desktop app that summarizes your unread Gmail messages using AI. You can also enter a keyword prompt (e.g., 'internship') to check if relevant emails are present. The app will notify you if any unread emails match the prompt.
+A minimalist desktop app that summarizes your unread emails using AI. You can also enter a keyword prompt (e.g., 'internship') to check if relevant emails are present. The app will notify you if any unread emails match the prompt.
 
 ## ✨ Features
 
