@@ -13,8 +13,8 @@ A minimalist desktop app that summarizes your unread Gmail messages using AI. Yo
 
 ## 📷 Screenshots
 
-![App Screenshot 1](./screenshots/yes-prompt.png)
-![App Screenshot 2](./screenshots/no-prompt.png)
+<img src="./screenshots/yes-prompt.png" alt="App Screenshot 1" width="350" />
+<img src="./screenshots/no-prompt.png" alt="App Screenshot 2" width="350" />
 
 ## 🔧 How it Works
 
