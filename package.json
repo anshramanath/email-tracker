@@ -1,0 +1,35 @@
+{
+  "name": "email-tracker",
+  "version": "1.0.0",
+  "main": "electron/main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm:serve\" \"npm:electron\"",
+    "serve": "cd react-app && npm run dev",
+    "electron": "wait-on http://localhost:5173 && cross-env NODE_ENV=development electron .",
+    "build": "cd react-app && npm run build",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "cross-env": "^7.0.3",
+    "electron": "^36.3.1",
+    "wait-on": "^8.0.3"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.1.0",
+    "@mui/material": "^7.1.0",
+    "cohere-ai": "^7.17.1",
+    "dotenv": "^16.5.0",
+    "googleapis": "^149.0.0",
+    "lowdb": "^7.0.1",
+    "node-fetch": "^3.3.2",
+    "open": "^10.1.2"
+  }
+}
